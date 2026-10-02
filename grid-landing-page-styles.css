@@ -1,0 +1,41 @@
+body{
+	background-color: hsl(228, 99%, 58%);
+	color: white;
+	font-family: Inter, Arial;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	padding: 20px;
+	column-gap: 20px;
+	row-gap: 50px;
+}
+
+header, footer p{
+	grid-column: 1 / -1; /*make it span the whole row (merge the two columns)*/
+	font-size: 14px;
+}
+
+
+p{
+	font-size: 17px;
+}
+
+.right-side{
+	
+}
+
+h1{
+	font-size: 70px;
+}
+
+.boxes{
+	display:grid;
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 1fr 1fr;
+}
+
+.box{
+	display: flex;
+	flex-direction: column;
+}
+
+
